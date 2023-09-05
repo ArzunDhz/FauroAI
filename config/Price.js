@@ -33,28 +33,4 @@ export const PriceData = [
       "API access for integration",
     ],
   },
-  {
-    id: 4,
-    title: "Gold",
-    price: "$29.99",
-    features: [
-      "AI-powered image enhancement",
-      "Custom prompt development",
-      "Dedicated account manager",
-      "Exclusive templates and styles",
-      "API access for integration",
-    ],
-  },
-  {
-    id: 4,
-    title: "Gold",
-    price: "$29.99",
-    features: [
-      "AI-powered image enhancement",
-      "Custom prompt development",
-      "Dedicated account manager",
-      "Exclusive templates and styles",
-      "API access for integration",
-    ],
-  },
 ];

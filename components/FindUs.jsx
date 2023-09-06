@@ -61,7 +61,6 @@ const FindUs = () => {
                         type="checkbox"
                         value=""
                         id="exampleCheck96"
-                        checked
                       />
                       <label
                         className="inline-block pl-[0.15rem] hover:cursor-pointer"

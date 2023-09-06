@@ -3,6 +3,7 @@ import { CollectionImg, HeroImg } from "@public/images";
 import Image from "next/image";
 import React, { useEffect } from "react";
 import Aos from "aos";
+import Link from "next/link";
 const CreativeSection = () => {
   useEffect(() => {
     Aos.init();
@@ -26,9 +27,12 @@ const CreativeSection = () => {
             "Creativity is the brush that paints the canvas of innovation,
             turning imagination into reality." - ChatGPT
           </h1>
-          <button className="p-2 mt-2 text-black bg-white shadow-2xl rounded-3xl">
-            Create Now
-          </button>
+          <Link href={"/generate"}>
+            {" "}
+            <button className="p-2 mt-2 text-black bg-white shadow-2xl rounded-3xl">
+              Create Now
+            </button>
+          </Link>
         </div>
       </section>
     </>

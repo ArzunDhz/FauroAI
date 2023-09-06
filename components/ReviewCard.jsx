@@ -17,7 +17,7 @@ const ReviewCard = ({ data }) => {
       data-aos-delay="150"
       className="h-[500px]   sm:h-fit  sm:mt-10 bg-gradient-to-b
       dark:from-black dark:via-stone-900  
-       dark:to-slate-950 rounded-lg shadow-2xl 
+       dark:to-slate-950 rounded-[70px] shadow-2xl 
         sm:w-[300px] md:w-[400px] w-[200px]"
     >
       <div className="flex flex-col items-center h-full p-10 rounded-lg ">

@@ -42,17 +42,12 @@ const NavBar = () => {
               onClick={() => signOut()}
               className="mr-3 text-3xl font-bold cursor-pointer sm:text-sm text-pop "
             >
-              Create
-            </button>
-            <button
-              onClick={() => signOut()}
-              className="mr-3 text-3xl font-bold cursor-pointer sm:text-sm text-pop "
-            >
               Singout
             </button>
 
             <button className="mr-3 text-4xl font-bold cursor-pointer sm:text-sm text-pop ">
               <Image
+                alt="user"
                 width={20}
                 height={20}
                 className="rounded-full sm:w-8 sm:h-8 md:w-12 md:h-12"

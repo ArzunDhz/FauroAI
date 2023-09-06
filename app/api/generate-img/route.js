@@ -38,7 +38,6 @@ export const POST = async (req, res) => {
       });
       sendImage = result.url;
     });
-    console.log(sendImage);
     return NextResponse.json({ message: "Success", sendImage });
   } catch (error) {
     console.log(error);
